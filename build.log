@@ -1,0 +1,29 @@
+
+> next-news-feed@1.0.0 build
+> next build
+
+   ▲ Next.js 15.3.1
+
+   Linting and checking validity of types ...
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 1000ms
+   Collecting page data ...
+   Generating static pages (0/9) ...
+TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at <unknown> (.next/server/pages/index.js:1:12294)
+    at Array.filter (<anonymous>)
+    at c (.next/server/pages/index.js:1:12276)
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at /var/local/wise23/ai_explorer/.next/server/pages/index.js:1:12294
+    at Array.filter (<anonymous>)
+    at c (/var/local/wise23/ai_explorer/.next/server/pages/index.js:1:12276)
+    at renderWithHooks (/var/local/wise23/ai_explorer/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4282:18)
+    at renderElement (/var/local/wise23/ai_explorer/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4420:14)
+    at retryNode (/var/local/wise23/ai_explorer/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5022:16)
+    at renderNodeDestructive (/var/local/wise23/ai_explorer/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4835:7)
+    at renderNode (/var/local/wise23/ai_explorer/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5280:14)
+    at renderElement (/var/local/wise23/ai_explorer/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4490:11)
+    at retryNode (/var/local/wise23/ai_explorer/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5022:16)
+Export encountered an error on /, exiting the build.
+ ⨯ Next.js build worker exited with code: 1 and signal: null
