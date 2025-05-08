@@ -1,6 +1,6 @@
 ---
-title: End of The Ice Age
-date: 2025-05-08
+title: "End of The Ice Age"
+date: "2025-05-08"
 excerpt: "The Sudden Thaw: How the Last Ice Age Ended in a Geological Flash"
 ---
 
